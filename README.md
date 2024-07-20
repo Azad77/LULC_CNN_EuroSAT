@@ -34,6 +34,7 @@ You can install these libraries using pip:
 
 ```bash
 pip install torch torchvision pillow matplotlib seaborn pandas scikit-learn
+```
 Installation
 Clone this repository to your local machine:
 
