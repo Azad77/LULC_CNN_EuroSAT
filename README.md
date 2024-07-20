@@ -64,8 +64,9 @@ Execute the training script to train the CNN model:
 
 ```bash
 python train.py
-Evaluate the Model:
 ```
+
+Evaluate the Model:
 
 To evaluate the trained model, use the evaluation script:
 
@@ -94,6 +95,7 @@ LULC_CNN_EuroSAT/
 ```
 
 References
+
 Reid Falconer, Land Use and Land Cover Classification (Beating the Benchmark). Available at: GitHub Repository
 
 Helber, P., Bischke, B., Dengel, A., & Borth, D. (2018). Eurosat: A novel dataset and deep learning benchmark for land use and land cover classification. arXiv preprint arXiv:1709.00029. Available at: arXiv
