@@ -2,15 +2,6 @@
 
 This repository contains code for implementing a Convolutional Neural Network (CNN) for land use and land cover classification using the EuroSAT dataset and PyTorch. The EuroSAT dataset is based on Sentinel-2 satellite images and includes 10 classes representing various land use and land cover types.
 
-## Table of Contents
-
-- [Project Overview](#project-overview)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Directory Structure](#directory-structure)
-- [References](#references)
-- [License](#license)
 
 ## Project Overview
 
@@ -57,41 +48,6 @@ Download the EuroSAT dataset and unzip it into the ./EuroSAT/ directory. You can
 wget http://madm.dfki.de/files/sentinel/EuroSAT.zip -O EuroSAT.zip
 unzip -q EuroSAT.zip -d 'EuroSAT/'
 rm EuroSAT.zip
-```
-Run the Training Script:
-
-Execute the training script to train the CNN model:
-
-```bash
-python train.py
-```
-
-Evaluate the Model:
-
-To evaluate the trained model, use the evaluation script:
-
-```bash
-python evaluate.py
-```
-Make Predictions:
-
-Use the prediction script to classify sample images:
-
-```bash
-python predict.py
-```
-Directory Structure
-```graphql
-
-LULC_CNN_EuroSAT/
-│
-├── EuroSAT/                  # Directory for EuroSAT dataset
-│
-├── train.py                   # Script to train the CNN model
-├── evaluate.py                # Script to evaluate the model
-├── predict.py                 # Script to make predictions on sample images
-├── requirements.txt           # List of dependencies
-└── README.md                  # This README file
 ```
 
 References
