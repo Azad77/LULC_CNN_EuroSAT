@@ -50,7 +50,7 @@ unzip -q EuroSAT.zip -d 'EuroSAT/'
 rm EuroSAT.zip
 ```
 
-References
+## References:
 
 Reid Falconer, Land Use and Land Cover Classification (Beating the Benchmark). Available at: GitHub Repository
 
@@ -58,5 +58,4 @@ Helber, P., Bischke, B., Dengel, A., & Borth, D. (2018). Eurosat: A novel datase
 
 Ankur Mahesh & Isabelle Tingzon, Land Use and Land Cover Classification using PyTorch. Available at: Google Colab
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
