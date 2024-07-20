@@ -38,48 +38,50 @@ pip install torch torchvision pillow matplotlib seaborn pandas scikit-learn
 Installation
 Clone this repository to your local machine:
 
-bash
-Copy code
+```bash
 git clone https://github.com/yourusername/LULC_CNN_EuroSAT.git
+```
+
 Navigate to the project directory:
 
-bash
-Copy code
+```bash
 cd LULC_CNN_EuroSAT
+```
+
 Usage
 Download and Unzip the EuroSAT Dataset:
 
 Download the EuroSAT dataset and unzip it into the ./EuroSAT/ directory. You can use the following commands:
 
-bash
-Copy code
+```bash
 wget http://madm.dfki.de/files/sentinel/EuroSAT.zip -O EuroSAT.zip
 unzip -q EuroSAT.zip -d 'EuroSAT/'
 rm EuroSAT.zip
+```
 Run the Training Script:
 
 Execute the training script to train the CNN model:
 
-bash
-Copy code
+```bash
 python train.py
 Evaluate the Model:
+```
 
 To evaluate the trained model, use the evaluation script:
 
-bash
-Copy code
+```bash
 python evaluate.py
+```
 Make Predictions:
 
 Use the prediction script to classify sample images:
 
-bash
-Copy code
+```bash
 python predict.py
+```
 Directory Structure
-graphql
-Copy code
+```graphql
+
 LULC_CNN_EuroSAT/
 │
 ├── EuroSAT/                  # Directory for EuroSAT dataset
@@ -89,6 +91,8 @@ LULC_CNN_EuroSAT/
 ├── predict.py                 # Script to make predictions on sample images
 ├── requirements.txt           # List of dependencies
 └── README.md                  # This README file
+```
+
 References
 Reid Falconer, Land Use and Land Cover Classification (Beating the Benchmark). Available at: GitHub Repository
 
