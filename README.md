@@ -1,4 +1,5 @@
 LULC_CNN_EuroSAT
+
 This repository contains code for implementing a Convolutional Neural Network (CNN) for land use and land cover classification using the EuroSAT dataset and PyTorch. The EuroSAT dataset is based on Sentinel-2 satellite images and includes 10 classes representing various land use and land cover types.
 
 Table of Contents
